@@ -3,8 +3,10 @@ The second version of my project SysInfo with major enhancements over the first 
 ## Installation 
 - Download repository as a .zip file.
 - After that , extract all files to the <b>same folder</b>.
-- Now run the `SysInfoV2.py` file. 
-- Done!
+- Now run the `setup.py` file. 
+- Do as the command line says to install the modules .
+- Wait for some time ,since modules can take some time to install.
+- Once the modules are installed , the programme should launch
 ## Components
 - #### Basic System Information
 - #### Boot time information
@@ -13,4 +15,5 @@ The second version of my project SysInfo with major enhancements over the first 
 - #### CPU Information
 - #### Disk Information
 - #### Some useful graphs
+## Works only with Python 3.X
 
