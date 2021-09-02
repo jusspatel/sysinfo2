@@ -15,5 +15,8 @@ The second version of my project SysInfo with major enhancements over the first 
 - #### CPU Information
 - #### Disk Information
 - #### Some useful graphs
+## Snapshot
+<img src = "https://github.com/jusspatel/sysinfo2/blob/main/snap.png">
+
 ## Works only with Python 3.X
 
