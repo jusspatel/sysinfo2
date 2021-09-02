@@ -9,6 +9,7 @@ from matplotlib.animation import FuncAnimation
 from psutil import cpu_percent
 
 root = Tk()
+root.title('SysInfoV2')
 root.configure(background = "#1c1b19")
     
 Header = Label(root , text = "SysInfoV2" ,fg = "white" ,bg = "#1c1b19", font = ("Courier New" , 25,"bold"))
