@@ -31,7 +31,6 @@ graph.place(x = 370 , y = 325)
 T = Text(basic , height = 9 , width = 45 , bg = "black" , fg = "white")
 T.pack()
 
-# C
   
 uname = platform.uname()
 T.insert(END,f"System: {uname.system}\n")
@@ -164,12 +163,5 @@ b1 = Button(root,text = "Check Current Cpu Usage\n         " , command = cpuusag
 b2 = Button(root,text = "Check Current Cpu \nFrequency (Mhz)" , command = memusage,width = 24 ).place(x = 550 , y = 490)
 b3 = Button(root,text = "Check No. of Context \nSwitches since boot" , command = statsusage,width = 24 ).place(x = 550 , y = 540)
 b4 = Button(root,text = "          Check time spent by \nprocesses executing in user mode" , command = cputusage, width = 25 ,).place(x = 370 , y = 490)
-      
-
-
-    
-
-
-
 
 root.mainloop()
