@@ -9,10 +9,10 @@ from matplotlib.animation import FuncAnimation
 from psutil import cpu_percent
 
 root = Tk()
-root.title('SysInfoV2')
+root.title('SysInfoV2 by Juss Patel')
 root.configure(background = "#1c1b19")
     
-Header = Label(root , text = "SysInfoV2 by Juss Patel" ,fg = "white" ,bg = "#1c1b19", font = ("Courier New" , 25,"bold"))
+Header = Label(root , text = "SysInfoV2" ,fg = "white" ,bg = "#1c1b19", font = ("Courier New" , 25,"bold"))
 Header.grid(row =0 ,column = 0 , columnspan = 3)
 basic = LabelFrame(root , text = "Basic Info", fg = "white" ,bg = "#1c1b19",font = ("Microsoft PhagsPa" , 15))
 basic.grid(row = 2 , column = 0)
